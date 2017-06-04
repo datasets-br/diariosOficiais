@@ -1,2 +1,2 @@
-# secoes-diariosOficiais
-Seções dos diários oficiais do Brasil, controle semântico e terminológico
+# do-secoes
+Seções dos *diários oficiais* (DO's) do Brasil (esferas federal, estadual e municipal), controle semântico e terminológico.
