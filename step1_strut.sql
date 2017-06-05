@@ -61,7 +61,10 @@ CREATE FUNCTION oficial.normalizeterm(
 	boolean DEFAULT true
 ) RETURNS text AS $f$
    SELECT unaccent(  tlib.normalizeterm(
-          CASE WHEN $2 THEN substring($1 from '^[^\.\(\)\/–,;]+' ) ELSE $1 END
+          CASE WHEN $2 THEN substring($1 from '^[^\(\)\/;]+' ) ELSE $1 END,
+	  ' ',
+	  255,
+          ' / '
    ));
 $f$ LANGUAGE SQL IMMUTABLE;
 
@@ -72,16 +75,18 @@ CREATE FUNCTION oficial.name2lex(
   p_normalize boolean DEFAULT true, 
   p_cut boolean DEFAULT true
 ) RETURNS text AS $f$
-   SELECT CASE WHEN p_normalize THEN oficial.normalizeterm(name_lex,p_cut) ELSE name_lex END
-   FROM (
-	   SELECT trim(regexp_replace(
-	     $1,
-	     ' | d?[aeo] |^d?[aeo] ',
+   SELECT trim(replace(
+	   regexp_replace(
+	     CASE WHEN p_normalize THEN oficial.normalizeterm($1,p_cut) ELSE $1 END,
+	     ' d[aeo] | com | para |^d[aeo] | / .+| [aeo]s | [aeo] | ',
 	     '.', 
 	     'g'
-	   ),'.') AS name_lex
-   ) t;
+	   ),
+	   '..',
+           '.'
+       ),'.')
 $f$ LANGUAGE SQL IMMUTABLE;
+
 
 
 CREATE FUNCTION oficial.autoridade_pai_byname(
@@ -121,4 +126,3 @@ INSERT INTO oficial.autoridades (id,name_lex,id_jurisdicao) VALUES
  (10,'secretaria',2) -- geral Brasil, 
 ;
 SELECT reset_idseq('oficial.autoridades');
-
