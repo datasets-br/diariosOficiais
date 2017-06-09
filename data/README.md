@@ -65,7 +65,7 @@ requerendo que os curadores deste *dataset* tomem eventuais decisões relativas 
 Na esfera municipal, por exemplo, o Executivo de São Paulo e o IBGE adotaram em consenso a segmentação do território em 9 zonas, 
 ao passo que o [TRT fixoou 5 regiões](http://trt2.jus.br/indice-noticias-em-destaque/2320-trt-2-desenvolve-projeto-para-divisao-da-jurisdicao-de-sao-paulo) ([atualização](https://trt-2.jusbrasil.com.br/noticias/100378222/trt-2-desenvolve-projeto-para-divisao-da-jurisdicao-do-municipio-de-sao-paulo)).
 
-NOTA: para a curadoria falta conferir por exemplo se a subdivisão municipal será mantida por zonas (subprefeituras como autoridades) ou alterado para distritos (subprefeituras como jurisdições). Quanto ao uso da sigla de UF, é uma extensão da sigla de país, presente na mesma norma ISO 3166-2, e já prevista na próxima versão do LEXML, e revista no datasets-br/state-codes.
+NOTA: para a curadoria falta conferir por exemplo se a subdivisão municipal será mantida por zonas (subprefeituras como autoridades) ou alterado para distritos (subprefeituras como jurisdições). Quanto ao uso da sigla de UF, é uma extensão da sigla de país, presente na mesma norma ISO 3166-2, e já prevista na próxima versão do LEXML, e revista no [datasets-br/state-codes](https://github.com/datasets-br/state-codes).
 
 ## Autoridades
 
