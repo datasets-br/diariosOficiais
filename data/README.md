@@ -8,6 +8,8 @@ A organização dos *metadados de controle* para recuperação de dados relativo
 tem como base a definição da [URN-LEX](https://en.wikipedia.org/wiki/Lex_(URN)) na [RFC-draft-urn-lex-v10](https://datatracker.ietf.org/doc/draft-spinosa-urn-lex/),
 já adotada no Brasil desde 2009 com o inicio das operações do Portal LexML e da vigência da norma [LexML-URN](http://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf), reforçada pelo [E-PING](http://eping.governoeletronico.gov.br/#p2s5) desde 2010.
 
+No cenário internacional o uso de *identificadores transparentes* similares à  URN LEX, baseados em metadados essenciais, também vem se consolidando, notadamente com os padrões europeus [ELI](https://en.wikipedia.org/wiki/European_Legislation_Identifier) e [ECLI](https://en.wikipedia.org/wiki/European_Case_Law_Identifier).
+
 ## Escopo
 
 Apesar de não ser um elemento explícito na norma URN-LEX ou sua especialização LexML-URN, 
