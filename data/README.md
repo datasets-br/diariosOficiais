@@ -5,15 +5,15 @@ Maiores detalhes: compor [`datapackage.json`](../datapackage.json) na raiz, em c
 ## URN LEX como referência
 
 A organização dos *metadados de controle* para recuperação de dados relativos a Diários Oficiais 
-tem como base a definição da [URN-LEX](https://en.wikipedia.org/wiki/Lex_(URN)) na [RFC-draft-urn-lex-v10](https://datatracker.ietf.org/doc/draft-spinosa-urn-lex/),
-já adotada no Brasil desde 2009 com o inicio das operações do Portal LexML e da vigência da norma [LexML-URN](http://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf), reforçada pelo [E-PING](http://eping.governoeletronico.gov.br/#p2s5) desde 2010.
+têm como base a definição da [URN-LEX](https://en.wikipedia.org/wiki/Lex_(URN)) na [RFC-draft-urn-lex-v10](https://datatracker.ietf.org/doc/draft-spinosa-urn-lex/),
+já adotada no Brasil desde 2009 com o início das operações do Portal LexML e da vigência da norma [LexML-URN](http://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf), reforçada pelo [E-PING](http://eping.governoeletronico.gov.br/#p2s5) desde 2010.
 
 No cenário internacional o uso de *identificadores transparentes* similares à  URN LEX, baseados em metadados essenciais, também vem se consolidando, notadamente com os padrões europeus [ELI](https://en.wikipedia.org/wiki/European_Legislation_Identifier) e [ECLI](https://en.wikipedia.org/wiki/European_Case_Law_Identifier).
 
 ## Escopo
 
 Apesar de não ser um elemento explícito na norma URN-LEX ou sua especialização LexML-URN, 
-as URNs de matérias (separatas dos diários oficiaias) podem ser agrupadas em grandes conjuntos:
+as URNs de matérias (separatas dos diários oficiais) podem ser agrupadas em grandes conjuntos:
 
 * Poder Governamental (`gov`): subdividido em,
 
@@ -31,10 +31,10 @@ separadas eventualmente por seções.  De forma geral, todavia, os escopos são 
 
 ## Data de publicação (ano)
 
-Apesar de, na hierarquia do *path* URN LEX, a data de publicação da matéria (ano-mes-dia) ficar no final,  ela deve ser tomada como referência global para a interpretação dos demais metadados. 
+Apesar de, na hierarquia do *path* URN LEX, a data de publicação da matéria (ano-mês-dia) ficar no final,  ela deve ser tomada como referência global para a interpretação dos demais metadados. 
 Só a partir da data (em geral basta o ano) pode-se inferir a validade de um identificador de *autoridade* ou de *jurisdição*. O nome de um estado, por exemplo, depende do ano &mdash; o estado de Tocantins só passou a ser um nome válido a partir de 1988 (ver controle em [datasets-br/state-codes](https://github.com/datasets-br/state-codes/blob/master/data/br-state-codes.csv)), e o nome Guanabara deixou de ser válido em 1975.
 
-Ficou covencionado portanto, no presente *dataset* e na resolução de nomes do [OFICIAL.NEWS](https://github.com/okfn-brasil/oficial.news), que a data de publicação tem precedência, estabelecendo o referencial de validação dos demais metadados.
+Ficou convencionado portanto, no presente *dataset* e na resolução de nomes do [OFICIAL.NEWS](https://github.com/okfn-brasil/oficial.news), que a data de publicação tem precedência, estabelecendo o referencial de validação dos demais metadados.
 
 ## Jurisdições
 
@@ -56,14 +56,14 @@ na escala geral (ex. mapas 1:50.000 ou menores), um mosaico único.
 
 A jurisdição portanto não pode ser tratada como um meio de classificação, com conjuntos disjuntos: existe a possibilidade 
 de interseção espacial entre jurisdições. O que se oferece são regras (não-sintáticas)  "seletoras de mosaico", 
-que garantem a independência (disjunção) das hierarquias jurisdição-autoriade. 
+que garantem a independência (disjunção) das hierarquias jurisdição-autoridade. 
 
-A estabiliade e consenso em torno de jurisdições deve ser analisada dentro de cada _escopo_. 
+A estabilidade e consenso em torno de jurisdições deve ser analisada dentro de cada _escopo_. 
 As convenções para se "brecar" uma hierarquia não são claras, 
-requerendo que os curadores deste *dataset* tomem eventuais decisões relativas aos limites de hierarquisação (tamanho do _path_ da jurisdição). 
+requerendo que os curadores deste *dataset* tomem eventuais decisões relativas aos limites de hierarquização (tamanho do _path_ da jurisdição). 
 
 Na esfera municipal, por exemplo, o Executivo de São Paulo e o IBGE adotaram em consenso a segmentação do território em 9 zonas, 
-ao passo que o [TRT fixoou 5 regiões](http://trt2.jus.br/indice-noticias-em-destaque/2320-trt-2-desenvolve-projeto-para-divisao-da-jurisdicao-de-sao-paulo) ([atualização](https://trt-2.jusbrasil.com.br/noticias/100378222/trt-2-desenvolve-projeto-para-divisao-da-jurisdicao-do-municipio-de-sao-paulo)).
+ao passo que o [TRT fixou 5 regiões](http://trt2.jus.br/indice-noticias-em-destaque/2320-trt-2-desenvolve-projeto-para-divisao-da-jurisdicao-de-sao-paulo) ([atualização](https://trt-2.jusbrasil.com.br/noticias/100378222/trt-2-desenvolve-projeto-para-divisao-da-jurisdicao-do-municipio-de-sao-paulo)).
 
 NOTA: para a curadoria falta conferir por exemplo se a subdivisão municipal será mantida por zonas (subprefeituras como autoridades) ou alterado para distritos (subprefeituras como jurisdições). Quanto ao uso da sigla de UF, é uma extensão da sigla de país, presente na mesma norma ISO 3166-2, e já prevista na próxima versão do LEXML, e revista no [datasets-br/state-codes](https://github.com/datasets-br/state-codes).
 
@@ -71,7 +71,7 @@ NOTA: para a curadoria falta conferir por exemplo se a subdivisão municipal ser
 
 ...
 
-Os arquivos `autoridades.csv` ocorrem repetidamente a cada path de jurisdição nas pastas do presente dataset. 
+Os arquivos `autoridades.csv` ocorrem repetidamente a cada _path_ de jurisdição nas pastas do presente dataset. 
 Para evitar o uso de longos nomes e dificuldades de navegação, foram utilizadas as URN LEX abreviadas, conforme dataset `jurisdicao-abrev.csv`...
 
 ...
