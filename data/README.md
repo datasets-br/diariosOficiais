@@ -27,6 +27,13 @@ as URNs de matérias (separatas dos diários oficiaias) podem ser agrupadas em g
 O *escopo* pode eventualmente se misturar dentro de um mesmo diário oficial, tipicamente matérias do Judiciário (ex. TRM) e do executivo são publicadas num mesmo diário, 
 separadas eventualmente por seções.  De forma geral, todavia, os escopos são claros e sempre encontram-se publicados em meios (diários) separados.
 
+## Data de publicação (ano)
+
+Apesar de, na hierarquia do *path* URN LEX, a data de publicação da matéria (ano-mes-dia) ficar no final,  ela deve ser tomada como referência global para a interpretação dos demais dados. 
+Só a partir da data (em geral basta o ano) pode-se inferir a validade de um identificador de autoridade ou de jurisdição. Por exemplo o nome de um estado depende do ano, o estado de Tocantins só passou a ser um nome válido a partir de 1988 (ver controle em [datasets-br/state-codes](https://github.com/datasets-br/state-codes/blob/master/data/br-state-codes.csv)).
+
+Ficou covencionado portanto, no presente dataset e na resolução de nomes do [OFICIAL.NEWS](https://github.com/okfn-brasil/oficial.news), que o ano de publicação é um metadado obrigatório e que estabelece o referencial de validação dos demais metadados.
+
 ## Jurisdições
 
 As jurisdições são, a grosso modo, os limites geográficos de atuação das *autoridades*. 
