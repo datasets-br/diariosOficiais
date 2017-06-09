@@ -70,7 +70,6 @@ $f$ LANGUAGE SQL IMMUTABLE;
 
 
 CREATE FUNCTION oficial.name2lex(
--- FALTA DESACENT!
   p_name text, 
   p_normalize boolean DEFAULT true, 
   p_cut boolean DEFAULT true
