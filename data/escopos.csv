@@ -1,0 +1,11 @@
+escopo,name,ordem,uso,notas
+exe,Executivo,1,autoridade,três poderes
+jud,Judiciário,2,autoridade,três poderes
+leg,Legislativo,3,autoridade,três poderes
+mil,Militar,4,autoridade,sob Executivo
+mix,Mix,5,autoridade,autoridade de escopo misto
+org,Organização,6,autoridade,não-governamental incluindo comercial 
+dout,Doutrina,7,documento,comenta documento do Legislativo
+mdl,Modelo,8,documento,"template de documento, principalmente contratos"
+orig,Original,9,documento,documento original
+prj,Projeto,10,documento,"projeto de documento, principalmente Legislativo"

@@ -1,0 +1,35 @@
+urn_p1,urn_p2,name1,name2,creation,extinction,idWd,idIBGE,NOTA
+br,,Brasil,,1889,,Q155,,Usando criação da República como referência
+br,ac,Estado do,Acre,1904,,Q40780,12,UFs
+br,al,Estado de,Alagoas,1889,,Q40040,27,estado
+br,am,Estado do,Amazonas,1889,,Q40886,13,
+br,ap,Estado do,Amapá,1943,,Q40130,16,estado
+br,ba,Estado da,Bahia,1889,,Q40430,29,
+br,ce,Estado do,Ceará,1889,,Q40123,23,
+br,df,Distrito Federal,,1975,,Q119158,53,"Conceito genérico, não está apontado para Brasília"
+br,es,Estado do,Espírito Santo,1889,,Q43233,32,
+br,fn,Território de,Fernando de Noronha,1943,1946,Q175057,,extinto
+br,gb,Estado da,Guanabara,1960,1975,Q1155409,,extinto
+br,go,Estado de,Goiás,1889,,Q41587,52,
+br,gu,Território do,Guaporé,1943,1946,,,extinto
+br,ig,Estado de,Iguaçu,1943,1946,,,extinto
+br,ma,Estado do,Maranhão,1889,,,21,
+br,mg,Estado de,Minas Gerais,1889,,,31,
+br,ms,Estado do,Mato Grosso do Sul,1977,,,50,
+br,mt,Estado do,Mato Grosso,1889,,,51,
+br,pa,Estado do,Pará,1889,,,15,
+br,pb,Estado da,Paraíba,1889,,,25,LexML revisado
+br,pe,Estado de,Pernambuco,1889,,,26,
+br,pi,Estado do,Piauí,1889,,,22,
+br,pp,Território de,Ponta Porã,1943,1946,,,extinto
+br,pr,Estado do,Paraná,1889,,,41,LexML revisado
+br,rb,Território de,Rio Branco,1943,1946,,,extinto
+br,rj,Estado do,Rio de Janeiro,1889,,,33,
+br,rn,Estado do,Rio Grande do Norte,1889,,,24,
+br,ro,Estado de,Rondônia,1981,,,11,
+br,rr,Estado de,Roraima,1947,,,14,
+br,rs,Estado do,Rio Grande do Sul,1889,,,43,
+br,sc,Estado de,Santa Catarina,1889,,,42,
+br,se,Estado do,Sergipe,1889,,,28,
+br,sp,Estado de,São Paulo,1889,,,35,
+br,to,Estado de,Tocantins,1988,,,17,
