@@ -2,6 +2,8 @@
 
 Maiores detalhes: compor [`datapackage.json`](../datapackage.json) na raiz, em conformidade com [specs.frictionlessdata.io](http://specs.frictionlessdata.io/) ou [exemplo](https://github.com/datasets-br/state-codes/blob/master/datapackage.json).
 
+Para editar os dados, preferir o uso  [desta planilha colaborativa](https://docs.google.com/spreadsheets/d/1w9oLo9ejbOuweLrss_FddZ-ZiqYZaNJmapUF_Rk28nU/), depois de revisado faz download para cá.
+
 ## URN LEX como referência
 
 A organização dos *metadados de controle* para recuperação de dados relativos a Diários Oficiais 
@@ -36,7 +38,10 @@ Só a partir da data (em geral basta o ano) pode-se inferir a validade de um ide
 
 Ficou convencionado portanto, no presente *dataset* e na resolução de nomes do [OFICIAL.NEWS](https://github.com/okfn-brasil/oficial.news), que a data de publicação tem precedência, estabelecendo o referencial de validação dos demais metadados.
 
-## Jurisdições
+## Terminologias controladas
+Os metadados de jurisdição, autoridade e tipo-documento são relativos às URNs LEX canônicas, e portanto devem ser baseados em uma terminologia canônica. Assim 
+
+### Jurisdições
 
 As jurisdições são, a grosso modo, os limites geográficos de atuação das *autoridades*. 
 Denominada na norma URN-LEX de *jurisdiction*, na sua definição sintática LexML-URN 
@@ -67,7 +72,7 @@ ao passo que o [TRT fixou 5 regiões](http://trt2.jus.br/indice-noticias-em-dest
 
 NOTA: para a curadoria falta conferir por exemplo se a subdivisão municipal será mantida por zonas (subprefeituras como autoridades) ou alterado para distritos (subprefeituras como jurisdições). Quanto ao uso da sigla de UF, é uma extensão da sigla de país, presente na mesma norma ISO 3166-2, e já prevista na próxima versão do LEXML, e revista no [datasets-br/state-codes](https://github.com/datasets-br/state-codes).
 
-## Autoridades
+### Autoridades
 
 ...
 
