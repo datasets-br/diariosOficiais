@@ -45,7 +45,7 @@ Os metadados de jurisdição, autoridade e tipo-documento são relativos às URN
 
 As jurisdições são, a grosso modo, os limites geográficos de atuação das *autoridades*. 
 Denominada na norma URN-LEX de *jurisdiction*, na sua definição sintática LexML-URN 
-é também denominada [*local*](http://okfn-brasil.github.io/getlex/lexBr/#local).
+é também denominada [*local*](http://okfn-brasil.github.io/getlex/lexBr/#local). <br/>O arquivo da versão 1 original se encontra em http://www.lexml.gov.br/vocabulario/localidade.rdf.xml 
 
 O arquivo [`jurisdicoes.csv`](jurisdicoes.csv) reúne todas as jurisdições previstas, com *URN LEX* respectivo nome oficial expresso por extenso.
 
@@ -73,10 +73,18 @@ ao passo que o [TRT fixou 5 regiões](http://trt2.jus.br/indice-noticias-em-dest
 NOTA: para a curadoria falta conferir por exemplo se a subdivisão municipal será mantida por zonas (subprefeituras como autoridades) ou alterado para distritos (subprefeituras como jurisdições). Quanto ao uso da sigla de UF, é uma extensão da sigla de país, presente na mesma norma ISO 3166-2, e já prevista na próxima versão do LEXML, e revista no [datasets-br/state-codes](https://github.com/datasets-br/state-codes).
 
 ### Autoridades
-
+O arquivo da versão 1 original se encontra em http://www.lexml.gov.br/vocabulario/autoridade.rdf.xml 
 ...
 
 Os arquivos `autoridades.csv` ocorrem repetidamente a cada _path_ de jurisdição nas pastas do presente dataset. 
 Para evitar o uso de longos nomes e dificuldades de navegação, foram utilizadas as URN LEX abreviadas, conforme dataset `jurisdicao-abrev.csv`...
 
 ...
+
+
+### Tipos de documento
+
+O arquivo da versão 1 original se encontra em http://www.lexml.gov.br/vocabulario/tipoDocumento.rdf.xml 
+
+...
+
