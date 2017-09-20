@@ -39,7 +39,7 @@ Só a partir da data (em geral basta o ano) pode-se inferir a validade de um ide
 Ficou convencionado portanto, no presente *dataset* e na resolução de nomes do [OFICIAL.NEWS](https://github.com/okfn-brasil/oficial.news), que a data de publicação tem precedência, estabelecendo o referencial de validação dos demais metadados.
 
 ## Terminologias controladas
-Os metadados de jurisdição, autoridade e tipo-documento são relativos às URNs LEX canônicas, e portanto devem ser baseados em uma terminologia canônica. Assim 
+Os metadados de jurisdição, autoridade e tipo-documento são relativos às URNs LEX canônicas, e portanto devem ser baseados em uma terminologia canônica. A versão 1 do conjunto de vocabulários LexML se encontra em http://dadosabertos.senado.leg.br/dataset/vocabul-rios-controlados-da-urn-lex 
 
 ### Jurisdições
 
