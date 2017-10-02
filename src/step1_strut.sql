@@ -1,3 +1,4 @@
+-- usar tlib de https://github.com/ppKrauss/sql-term/blob/master/src/sql_mode1/step1_libDefs.sql
 -- -- -- -- -- -- --
 -- Estrutura da base principal de OFICIAL.NEWS
 
